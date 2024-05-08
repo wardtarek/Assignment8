@@ -1,0 +1,17 @@
+h1 {
+  font-size: 60px;
+  font-family: serif;
+}
+#qoute {
+  font-family: "Merriweather", serif;
+  padding-inline: 10px;
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 80px;
+  }
+  #qoute {
+    padding-inline: 100px;
+  }
+}

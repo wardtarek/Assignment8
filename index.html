@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-danger-subtle">
+    <div class="container py-3">
+      <div
+        class="d-flex flex-column justify-content-center align-items-center text-center my-lg-5 my-3"
+      >
+        <h1 class="my-4 fw-bold">Quote of the Day</h1>
+        <h2 class="mb-4" style="font-size: 32px; font-family: serif">
+          Press the button below to recieve a random quote!
+        </h2>
+        <button
+          onclick="generate()"
+          class="btn btn-danger rounded-pill my-lg-3 my-1 py-3 px-5"
+          style="font-family: sans-serif"
+        >
+          New Quote
+        </button>
+        <div class="qoutes py-4 px-lg-5">
+          <p id="qoute" class="fs-4 mb-3"></p>
+          <h4
+            id="author"
+            class="fw-semibold fst-italic"
+            style="font-family: serif"
+          ></h4>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
